@@ -7,7 +7,9 @@ Main page shows current weather and 5 days forecast of Toronto by default.
 ## Search By City Name
 [![H372RBs.md.png](https://iili.io/H372RBs.md.png)](https://freeimage.host/i/H372RBs)
 <br />
-User can search by city name to retrieve the weather information of that city. In this example figure, we are getting Seoul's(Capital City of South Korea) weather.
+User can search by city name to retrieve the weather information of that city. 
+<br />
+In this example figure, we are getting Seoul's(Capital City of South Korea) weather.
 
 ### Wrong City Name
 [![H37BHpR.md.png](https://iili.io/H37BHpR.md.png)](https://freeimage.host/i/H37BHpR)
