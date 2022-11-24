@@ -76,7 +76,7 @@ export default function Weather() {
             for (let i = 0; i < list.length; ++i) {
                 const time = new Date(list[i].dt_txt);
                 console.log(time);
-                if (time.getHours() == 0) {
+                if (time.getHours() === 0) {
                     const weather = {
                         icon: list[i].weather[0].icon,
                         day: days[time.getDay()]
@@ -86,7 +86,9 @@ export default function Weather() {
             }
 
             setWeathers(weathers);
-        });
+        })
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [hasSubmitted]);
 
     useEffect(() => {
