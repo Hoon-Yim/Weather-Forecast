@@ -10,8 +10,7 @@ import {
     Form,
     Image,
     Row,
-    Alert,
-    ListGroup
+    Alert
 } from "react-bootstrap";
 import { 
     FaMapMarkerAlt,
@@ -19,9 +18,7 @@ import {
     FaTemperatureLow,
     FaWind
 } from "react-icons/fa";
-import {
-    GiWaterDrop
-} from "react-icons/gi"
+import { GiWaterDrop } from "react-icons/gi"
 
 export default function Weather() {
     const API_KEY = "d41ba901f7d73a979c632e4bb500af1d";
@@ -127,11 +124,11 @@ export default function Weather() {
                                 style={{ borderRadius: "100px", opacity: "80%" }}
                             />
                         </Form>
-                        <Container className="p-3" /* style={{ border: "1px solid", "border-radius": "25px" }} */>
+                        <Container className="p-3" >
                             <Row>
                                 <div className="d-flex flex-column justify-content-center align-items-center">
                                     <h3>{currentTime.day}</h3>
-                                    <div style={{ "fontSize": "10px" }}>
+                                    <div style={{ "fontSize": "12px" }}>
                                         <div>{currentTime.date} {currentTime.month} {currentTime.year} <FaMapMarkerAlt /> {apiResult.name}, {apiResult.sys.country}</div>
                                     </div>
                                 </div>
@@ -143,7 +140,7 @@ export default function Weather() {
                                 </Col>
                                 <Col className="d-flex flex-column justify-content-center align-items-center">
                                     <span style={{ fontSize: "50px" }}>{apiResult.main.temp}°C</span>
-                                    <span style={{ fontSize: "10px" }}>Feels like {apiResult.main.feels_like}°C</span>
+                                    <span style={{ fontSize: "13px" }}>Feels like {apiResult.main.feels_like}°C</span>
                                 </Col>
                             </Row>
 
