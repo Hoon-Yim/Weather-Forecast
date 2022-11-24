@@ -9,6 +9,8 @@ import Weather from "./pages/weather";
 
 export default function App() {
     return (
-        <Weather />
+        <div className="d-flex justify-content-center align-items-center" style={{ height: "80vh" }} >
+            <Weather />
+        </div>
     );
 }
