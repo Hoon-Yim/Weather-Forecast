@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Weather-Forecast/static/css/main.c2cab247.css",
+    "main.js": "/Weather-Forecast/static/js/main.e7a60840.js",
+    "static/media/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg": "/Weather-Forecast/static/media/cristina-gottardi-CSpjU6hYo_0-unsplash.51a3b6a41e7f271e3acc.jpg",
+    "index.html": "/Weather-Forecast/index.html",
+    "main.c2cab247.css.map": "/Weather-Forecast/static/css/main.c2cab247.css.map",
+    "main.e7a60840.js.map": "/Weather-Forecast/static/js/main.e7a60840.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.e7a60840.js"
+  ]
+}
