@@ -1,9 +1,23 @@
-## Main Page
+# Weather Forecast
+## [https://hoon-yim.github.io/Weather-Forecast/](https://hoon-yim.github.io/Weather-Forecast/)
+## Project Description
+The Weather Forecast application provides detailed weather information for various cities. <br/>
+Users can obtain forecasts by entering the name of their desired city, with Toronto, Ontario set as the default location.
+
+### Tech Stacks
+Built up using React.js and retrieved data from OpenWeatherAPI
+
+### Deployment
+Deployed using Github Page
+
+## Examples
+
+### Main Page
 [![H35twbf.md.png](https://iili.io/H35twbf.md.png)](https://freeimage.host/i/H35twbf)
 <br />
 Main page shows current weather and 5 days forecast of Toronto by default.
 
-## Search By City Name
+### Search By City Name
 [![H372RBs.md.png](https://iili.io/H372RBs.md.png)](https://freeimage.host/i/H372RBs)
 <br />
 User can search by city name to retrieve the weather information of that city. 
@@ -15,7 +29,6 @@ In this example figure, we are getting Seoul's(Capital City of South Korea) weat
 <br />
 If the city name is not valid or the OpenWeather API couldn't retrieve the weather information of the city, it will let the user know that the input of the search box is incorrect.
 
-## Examples
 ### Tokyo, JP
 [![H37xefI.md.png](https://iili.io/H37xefI.md.png)](https://freeimage.host/i/H37xefI)
 ### Quebec, CA
